@@ -30,3 +30,5 @@ aws configure set aws_session_token "$AWS_SESSION_TOKEN"
 
 # Upload the file to S3
 aws s3 cp "$SOURCE_FILE_PATH" "s3://$DESTINATION_BUCKET/$DESTINATION_OBJECT_KEY" --region "$REGION"
+
+#done
